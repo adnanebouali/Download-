@@ -1,0 +1,61 @@
+/* Reset some styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.card h1 {
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+/* Paragraph */
+.card p {
+  margin-bottom: 25px;
+  font-size: 1.1em;
+}
+
+/* Download button */
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #00b894;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #019875;
+}
